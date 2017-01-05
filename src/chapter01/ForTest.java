@@ -1,19 +1,19 @@
 package chapter01;
 
-public class WhileTest {
+public class ForTest {
 
 	public static void main(String[] args) {
-		int i = 1;
+		
 		int sum = 0;
-		while (i <= 10) {
+		for (int i = 1; i <= 10; i++) {
 			sum = sum + i;
 			System.out.println(i);
-			i++;
+			
 
 		}
 	
 		System.out.println(sum);
+
 	}
 
 }
-
