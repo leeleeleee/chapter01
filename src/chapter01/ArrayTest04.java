@@ -3,7 +3,7 @@ package chapter01;
 public class ArrayTest04 {
 
 	public static void main(String[] args) {
-		Student sl = new Student(); //같은 패키지 안에 student class 있기 때문
+//		Student sl = new Student(); //같은 패키지 안에 student class 있기 때문
 		
 		
 		Student[] students = new Student[3];
